@@ -2,13 +2,20 @@
 
 A simple module that parses LRC format to JSON object.
 
-# Usage
+## Install
+
+### Using npm
+```shell
+npm install --save lrc2json
+```
+
+## Usage
 
 ```javascript
 const lrc2json = require('lrc2json');
 let lrcJSON = lrc2json(lrcString);
 ```
-## Sample Input
+### Sample Input
 ```
 [ti: Title]
 [ar: Artist]
@@ -22,7 +29,7 @@ let lrcJSON = lrc2json(lrcString);
 [00:00.00]Begin
 [03:00.00]End
 ```
-## Sample Output
+### Sample Output
 ```JSON
 {
   "ti": "Title",
