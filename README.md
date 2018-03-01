@@ -1,5 +1,7 @@
 # lrc2json
 
+[![npm version](https://badge.fury.io/js/lrc2json.svg)](https://badge.fury.io/js/lrc2json)
+
 A simple module that parses LRC format to JSON object.
 
 ## Install
